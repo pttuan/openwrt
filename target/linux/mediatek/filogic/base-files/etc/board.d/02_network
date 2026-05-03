@@ -206,6 +206,9 @@ mediatek_setup_interfaces()
 	tplink,be450)
 		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3 eth2" eth1
 		;;
+	tplink,be805-v1)
+		ucidef_set_interfaces_lan_wan "lan0 lan1 lan2 lan3 eth1" eth2
+		;;
 	tplink,re6000xd)
 		ucidef_set_interface_lan "lan1 lan2 eth1"
 		;;
